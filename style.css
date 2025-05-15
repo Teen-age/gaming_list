@@ -1,0 +1,109 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameList{
+    list-style: none;
+    padding: 0;
+    width: fit-content;    
+    margin: 0 auto;         
+    padding: 0;
+    transform: scale(2);
+}
+
+.gameList li{
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background-position: left center;
+    line-height: 1.9;
+
+}
+
+
+.Valorant{
+    background-image: url("icons/valorant.png");
+
+}
+
+
+.Minecraft{
+    background-image: url("icons/Minecraft.png");
+   
+}
+
+.Outer{
+    background-image: url("icons/outer.png");
+
+}
+
+.Forza{
+    background-image: url("icons/forza.png");
+   
+}
+
+.Metro{
+    background-image: url("icons/metro.png");
+   
+}
+
+.Pacific{
+    background-image: url("icons/pacific.png");
+   
+}
+
+.Honkai{
+    background-image: url("icons/HSR.png");
+    
+}
+
+
+
+
+a{
+    margin-left: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    background-image: url('icons/back.png');  /* Path to the image */
+    background-size: cover;                   /* Make sure the image covers the screen */
+    background-position: center;              /* Center the image */
+    background-repeat: no-repeat;             /* Prevent the image from repeating */
+  }
+
+  .animation {
+    color:#000000;
+    line-height: 1.2;
+    position: relative;
+    padding: 0 14px;
+    
+  }
+  .animation:after {
+    content: "";
+    height: 100%;
+    min-width: 4px;
+    background: #007ffe;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+  }
+  .animation:hover:after {
+    min-width: 100%;
+    background: #110ae2;
+    opacity: .35;
+  }

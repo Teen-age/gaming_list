@@ -1,0 +1,30 @@
+body {
+    background-image: url("img/back.jpeg") ; /* Path to the image */
+    background-size: cover;            /* Make sure the image covers the screen */
+    background-position: center;              /* Center the image */
+    background-repeat: no-repeat;  
+    margin-bottom: 1000px;           /* Prevent the image from repeating */
+  }
+
+.heading{
+    margin-left: 65px;
+    font-size:50px;
+    font-family: sans-serif;
+    color: rgb(16, 228, 5);
+}
+
+.rgb1{
+  color: rgb(9, 0, 252);
+  
+}
+.rgb2{
+  color: rgb(172, 117, 255);
+}
+.rgb3{
+  color: rgb(165, 26, 187);
+}
+
+p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
