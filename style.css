@@ -1,3 +1,5 @@
+/* 5/16/2025 fix */
+
 html,body{
     margin: 0;
     height: 100%;
@@ -10,6 +12,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+/* --------------- */
 
 .gameList{
     list-style: none;
